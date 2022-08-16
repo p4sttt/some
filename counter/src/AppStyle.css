@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.App{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+    color: #000;
+    opacity: 0.8;
+}
+.buttonsBlock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+button{
+    padding: 8px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #000;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+.increment{
+    background-color: rgb(60, 220, 35);
+    -webkit-box-shadow: 0px 4px 0px 0px rgb(44, 169, 25);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(44, 169, 25, 1);
+    box-shadow: 0px 4px 0px 0px rgba(44, 169, 25, 1);
+}
+.decrement{
+    background-color: rgb(220, 35, 35);
+    -webkit-box-shadow: 0px 4px 0px 0px rgb(178, 29, 29);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(178, 29, 29, 1);
+    box-shadow: 0px 4px 0px 0px rgba(178, 29, 29, 1);
+}
